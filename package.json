@@ -1,0 +1,23 @@
+{
+  "name": "calculating_services",
+  "version": "1.0.0",
+  "description": "packagejson",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorodrig/formcalculatingservices.git"
+  },
+  "author": "David Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorodrig/formcalculatingservices/issues"
+  },
+  "homepage": "https://github.com/dorodrig/formcalculatingservices#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node": "^20.7.0"
+  }
+}
