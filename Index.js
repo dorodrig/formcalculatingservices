@@ -3,15 +3,19 @@ const path = require('path');
 
 const app = express();
 
+
+let valorluz;
+let valoragua;
+let valorgas;
 // Serve static files from the public directory
 app.use(express.static(path.join(__dirname, 'formcalculatingservices')));
 
 app.get('/style.css', (req, res) => {
-    res.sendFile(path.join(__dirname, 'style.css'));
-  });
-  
+  res.sendFile(path.join(__dirname, 'style.css'));
+});
+
 app.get('/', (req, res) => {
-    const html = ` 
+  const html = ` 
     <!DOCTYPE html>
     <html lang="en">
       <head>
@@ -194,9 +198,9 @@ app.get('/', (req, res) => {
       </body>
     </html>
     `;
-    res.send(html);
+  res.send(html);
 });
 
 app.listen(5000, () => {
-    console.log('Server running on port 5000');
+  console.log('Server running on port 5000');
 });

@@ -1,9 +1,10 @@
 body{
-    background-color: rgb(248, 245, 241);
+    background-color: rgb(249, 249, 252);
     flex-direction: row;
     flex-wrap: wrap;
     
 }
+
 .seccion{
     text-align: center;
     width: auto;
